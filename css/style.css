@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    width: 1440px;
+    margin: 0px auto;
+    font-family: 'Amiko';
+}
+
+header {
+    height: 123px;
+    background: #F2E9E9;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul a {
+    display: block;
+    size: 24px;
+    margin: 18px;
+    margin-top: 52px;
+    color: #000000;
+}
+
+nav ul .selcted {
+    color: #F72828;
+}
+
+nav ul a:hover {
+    color: #F72828;
+}
+
+/* only Layout1*/
+
+.mainLayout1 {
+    position: relative;
+    Width: 881px;
+    Height: 624px;
+    margin-top: 91px;
+    margin-left: 244px;
+}
+
+.mainLayout1 h1 {
+    position: absolute;
+    font-size: 72px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 176px;
+}
+
+.mainLayout1 h3 {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 263px;
+}
+
+.yellowSquares {
+    position: relative;
+    width: 437px;
+    Height: 624px;
+    margin-left: 444px;
+}
+
+.yellowSquares section {
+    position: absolute;
+    background: #EBEF18;
+}
+
+.leftArea section:nth-child(1) {
+    width: 75px;
+    height: 23px;
+    margin-top: 44px;
+}
+
+.leftArea section:nth-child(2) {
+    width: 136px;
+    height: 46px;
+    margin-top: 75px;
+}
+
+.leftArea section:nth-child(3) {
+    width: 134px;
+    height: 404px;
+    margin-top: 132px;
+}
+
+.leftArea section:nth-child(4) {
+    width: 88px;
+    height: 28px;
+    margin-top: 547px;
+}
+
+.leftArea section:nth-child(5) {
+    width: 25px;
+    height: 26px;
+    margin-top: 582px;
+}
+
+.leftArea section:nth-child(6){
+    width: 25px;
+    height: 26px;
+    margin-top: 582px;
+    margin-left: 32px;
+}
+
+.middlArea section:nth-child(1) {
+    width: 246px;
+    height: 352px;
+    margin-top: 44px;
+    margin-left: 149px;
+}
+
+.middlArea section:nth-child(2) {
+    width: 123px;
+    height: 212px;
+    margin-top: 412px;
+    margin-left: 147px;
+}
+
+.middlArea section:nth-child(3) {
+    width: 55px;
+    height: 105px;
+    margin-top: 412px;
+    margin-left: 284px;
+}
+
+.middlArea section:nth-child(4) {
+    width: 110px;
+    height: 58px;
+    margin-top: 524px;
+    margin-left: 284px;
+}
+
+.rightArea section {
+    width: 28px;
+    height: 55px;
+    margin-left: 409px;
+}
+
+.rightArea section:nth-child(2) {
+   margin-top: 66px;
+}
+
+.rightArea section:nth-child(3) {
+    margin-top: 132px;
+}
+
+.rightArea section:nth-child(4) {
+    height: 198px;
+    margin-top: 198px;
+}
+
+.rightArea section:nth-child(5) {
+    width: 55px;
+    height: 105px;
+    margin-top: 412px;
+    margin-left: 382px;
+}
+
+/* only Layout2 */
+
+.mainLayout2 {
+    position: relative;
+    width: 1440px;
+    height: 1860px;
+}
+
+.mainLayout2 .graySquares {
+    position: absolute;
+    width: 1271px;
+}
+
+.graySquares {
+    position: relative;
+}
+
+.graySquares article {
+    position: absolute;
+    width: 457px;
+    height: 299px;
+    background: #C4C4C4;
+}
+
+.graySquares .col1 article {
+    margin-left: 151px;
+} 
+
+.graySquares .col1 article:nth-child(1) {
+    margin-top: 119px;
+}
+
+.graySquares .col1 article:nth-child(2) {
+    margin-top: 488px;
+}
+
+.graySquares .col1 article:nth-child(3) {
+    margin-top: 857px;
+}
+
+.graySquares .col1 article:nth-child(4) {
+    margin-top: 1226px;
+}
+
+.graySquares .col1 article:nth-child(5) {
+    height: 265px;
+    margin-top: 1595px;
+}
+
+.graySquares .col2 article {
+    margin-left: 663px;
+} 
+
+.graySquares .col2 article:nth-child(1) {
+    margin-top: 287px;
+}
+
+.graySquares .col2 article:nth-child(2) {
+    margin-top: 656px;
+}
+
+.graySquares .col2 article:nth-child(3) {
+    margin-top: 1025px;
+}
+
+.graySquares .col2 article:nth-child(4) {
+    margin-top: 1394px;
+}
+
+.graySquares .col2 article:nth-child(5) {
+    height: 97px;
+    margin-top: 1763px;
+}
+
+.mainLayout2 aside {
+    position: absolute;
+    width: 169px;
+    height: 1860px;
+    margin-left: 1271px;
+    background: #EBEF18;
+}
+
+aside {
+    position: relative;
+}
+
+aside .box div {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #000000;
+}
+
+aside .box div:nth-child(1) {
+    margin-top: 119px;
+}
+
+aside .box div:nth-child(2) {
+    margin-top: 247px;
+    margin-left: 89px;
+    background: #ffffff;
+}
+
+aside .box div:nth-child(3) {
+    margin-top: 616px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    font-size: 96px;
+    margin-top: 1240px;
+}
+
+.name a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #000000;
+}
+
+footer {
+    width: 1440px;
+    height: 41px;
+    background: #000000;
+}
+
+.footerLayout1 {
+    margin-top: 145px;
+}
+
+/* only Layout3 */
+
+#wrapper3 {
+    width: 1440px;
+    margin: 0px auto;
+    font-family: 'Amiko';
+}
+
+#wrapper3 header {
+    display: flex;
+    justify-content: end;
+}
+
+#logo {
+    background: #000000;
+    width: 80px;
+    height: 80px;
+    margin-top: 21px;
+    margin-right: 24px;
+}
+
+.mainLayout3 {
+    position: relative;
+    width: 1440px;
+    height: 995px;
+}
+
+.mainArea {
+    position: absolute;
+    width: 964px;
+    height: 995px;
+    margin-left: 372px;
+}
+
+.purpleArea {
+    position: absolute;
+    width: 104px;
+    height: 995px;
+    margin-left: 1336px;
+    background: rgba(24, 71, 239, 0.3);
+}
+
+.yellowArea {
+    width: 1440px;
+    height: 463px;
+    background: #EBEF18;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #wrapper3 {
+        width: 100%;
+        width: 850px;
+    }
+
+    .navLayout3 {
+        width: 850px;
+        height: 105px;
+        background: #E5E5E5;
+    }
+
+    .purpleArea {
+        display: none;
+    }
+
+    .mainLayout3 {
+        width: 850px;
+        height: 1346px;
+    }
+
+    .mainArea {
+        width: 850px;
+        height: 1346px;
+        margin-left: 0px;
+    }
+
+    .yellowArea {
+        width: 850px;
+        height: 474px;
+    }
+
+    footer {
+        width: 850px;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    .navLayout3 {
+        position: absolute;
+        width: 372px;
+        height: 995px;
+        background: #E5E5E5;
+    }
+}
+    
